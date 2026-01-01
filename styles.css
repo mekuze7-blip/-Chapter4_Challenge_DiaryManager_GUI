@@ -1,0 +1,100 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-accent: #0078d7;
+}
+
+.main-container {
+    -fx-background-color: #ffffff;
+}
+
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0 1 0 0;
+}
+
+.toolbar {
+    -fx-background-color: #f3f3f3;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+.button, .toggle-button {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.button:pressed, .toggle-button:selected {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #aaaaaa;
+}
+
+.text-field {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+}
+
+.header-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 0 0 10 0;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #eeeeee transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #000000;
+    -fx-border-color: transparent;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    -fx-base: #2b2b2b;
+    -fx-background-color: #2b2b2b;
+}
+
+.dark-mode .sidebar {
+    -fx-background-color: #3c3c3c;
+    -fx-border-color: #444444;
+}
+
+.dark-mode .toolbar {
+    -fx-background-color: #3c3c3c;
+    -fx-border-color: #444444;
+}
+
+.dark-mode .header-label {
+    -fx-text-fill: #ffffff;
+}
+
+.dark-mode .button, .dark-mode .toggle-button {
+    -fx-background-color: #444444;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555555;
+}
+
+.dark-mode .button:hover, .dark-mode .toggle-button:hover {
+    -fx-background-color: #505050;
+}
+
+.dark-mode .list-cell:selected {
+    -fx-background-color: #505050;
+    -fx-text-fill: #ffffff;
+}
